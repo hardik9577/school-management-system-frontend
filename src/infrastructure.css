@@ -1,0 +1,62 @@
+.classroom {
+    padding: 300px 200px;
+}
+
+.classroom h2{
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 1050px;
+}
+
+.classroom p {
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -80px;
+    margin-left: 1000px;
+    margin-right: 300px;
+}
+
+.classroom img {
+    position: absolute;
+    margin-left: -50px;
+    width: 40%;
+    height: 500px;
+    margin-top: -235px;
+}
+
+.library {
+    position: relative;
+    color: white;
+    margin-top: 50px;
+    padding: 400px 200px;
+    background-color: rgb(7, 88, 7);;
+
+}
+
+.library h2 {
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -300px;
+    margin-left: 270px;
+}
+
+.library p {
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -200px;
+    margin-left: 50px;
+    margin-right: 1000px;
+}
+
+.library img {
+    margin-top: -200px;
+    position: absolute;
+    margin-left: 800px;
+    width: 40%;
+    height: 500px;
+}
