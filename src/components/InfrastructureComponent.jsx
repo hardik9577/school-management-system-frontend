@@ -40,7 +40,7 @@ class InfraStructureComponent extends Component {
                     </div>
                     <div className="classroom">
                         <h2>Classrooms</h2>
-                        <p>At MFHS, students learn in ergonomically designed classrooms equipped with SMART Boards, and all students from Grades 4 to 12 are provided with laptops. The Higher Secondary School block has 32 Smart Classrooms where 11 Smart LED panels and Smart Document Cameras are also installed. Wi-Fi access points are available to provide wireless coverage to all the classrooms.</p>
+                        <p>At MFHS, students learn in ergonomically designed classrooms equipped with SMART Boards, and all students from Grades 1 to 5 are provided with laptops. The Higher Secondary School block has 32 Smart Classrooms where 11 Smart LED panels and Smart Document Cameras are also installed. Wi-Fi access points are available to provide wireless coverage to all the classrooms.</p>
                         <img src={image2} alt="loading failed" />
                     </div>
                     <div className="library">

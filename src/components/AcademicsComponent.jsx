@@ -34,8 +34,8 @@ class AcademicsComponent extends Component {
                             <a href="/">Home</a>
                         </div>
                     </div>
+                    <div className="jumbotron"><h1>Academics</h1></div>
                     <div className="heading">
-                        <div className="jumbotron"><h1>Academics</h1></div>
                         <h3>THE SCHOOL AND THE WORLD</h3>
                         <p>A school cannot exist in isolation but needs to be aligned to the broader goals of society and human development. The UNESCO report*, brought out in the late ’90s, has articulated with clarity what the school has been practicing from its inception in the ’60s.</p>
                     </div>

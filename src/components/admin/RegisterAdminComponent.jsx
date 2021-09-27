@@ -26,11 +26,11 @@ class RegisterAdminComponent extends Component {
             .then(response => {
                 console.log(response.data);
                 this.setState({ message: 'Admin Registration successful' });
-                this.props.history.push('/');
+                this.props.history.push('/home');
             }).catch( err => {
                 console.error("in error ", err.response.data);
                 alert(err.response.data.message);
-                this.props.history.push('/api/signup/admin');
+                this.props.history.push('/user/signup/admin');
             })
     }
 
@@ -45,7 +45,7 @@ class RegisterAdminComponent extends Component {
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
                     <body>
                         <div className="jumbotron text-center">
-                            <h1>ABC School</h1>
+                            <h1>Mystic Falls High School</h1>
                         </div>
                         <div className="container">
                             <div className="row">
@@ -53,7 +53,7 @@ class RegisterAdminComponent extends Component {
 
                                 </div >
                                 <div className="col-sm-4">
-                                    <h3>Register</h3>
+                                    <h3>Admin Registration</h3>
                                     <div className="form-group">
                                         <label for="userName">Username</label>
                                         <input type="text" placeholder="Enter Username" id="userName" name="userName" className="form-control" value={this.state.userName} onChange={this.onChange} />

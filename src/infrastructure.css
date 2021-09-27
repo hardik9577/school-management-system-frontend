@@ -1,62 +1,55 @@
 .classroom {
-    padding: 300px 200px;
+    padding: 15rem;
+    position: relative;
 }
 
 .classroom h2{
-    position: absolute;
-    font-size: 50px;
-    text-align: center;
-    margin-top: -200px;
-    margin-left: 1050px;
+    object-fit: cover;
+    margin-left: 500px;
+    font-size: 45px;
+    padding: 1rem;
+    float: right;
 }
 
 .classroom p {
     position: absolute;
     font-size: 20px;
-    text-align: left;
-    margin-top: -80px;
-    margin-left: 1000px;
-    margin-right: 300px;
 }
 
 .classroom img {
-    position: absolute;
+   float: left;
     margin-left: -50px;
-    width: 40%;
+    width: 55%;
     height: 500px;
-    margin-top: -235px;
+   
 }
 
 .library {
     position: relative;
     color: white;
     margin-top: 50px;
-    padding: 400px 200px;
+    padding: 10rem;
     background-color: rgb(7, 88, 7);;
 
 }
 
 .library h2 {
-    position: absolute;
-    font-size: 50px;
-    text-align: center;
-    margin-top: -300px;
-    margin-left: 270px;
+    object-fit: cover;
+    font-size: 45px;
+    padding: 1rem;
+    float: left;
+    margin-right: 800px;
 }
 
 .library p {
     position: absolute;
     font-size: 20px;
     text-align: left;
-    margin-top: -200px;
-    margin-left: 50px;
-    margin-right: 1000px;
 }
 
 .library img {
     margin-top: -200px;
-    position: absolute;
-    margin-left: 800px;
-    width: 40%;
+    margin-left: 650px;
+    width: 50%;
     height: 500px;
 }

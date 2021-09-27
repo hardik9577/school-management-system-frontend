@@ -21,21 +21,10 @@ class HomePageComponent extends Component {
     super(props)
 
     this.getLoginForm = this.getLoginForm.bind(this);
-    this.getRegisterForm = this.getRegisterForm.bind(this);
-  }
-
-  componentDidMount() {
-    window.addEventListener('resize', () => {
-      this.setState({ windowWidth: document.body.clientWidth })
-    });
   }
 
   getLoginForm() {
-    this.props.history.push('/api/signin')
-  }
-
-  getRegisterForm() {
-    this.props.history.push('/api/signup/admin')
+    this.props.history.push('/user')
   }
 
   render() {
@@ -69,8 +58,7 @@ class HomePageComponent extends Component {
                 <a href="/academics">Academics</a>
                 <a className="active" href="/">Home</a>
               </div>
-              <button class="btn " onClick={this.getLoginForm}>Login</button>
-              <button class="btn " onClick={this.getRegisterForm}>Register</button>
+              <button class="btn " onClick={this.getLoginForm}>Login/Register</button>
             </div>
 
             <div className="slide">
